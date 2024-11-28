@@ -1,0 +1,68 @@
+/* External CSS */
+
+/* body is a CSS Selector */
+/* {} idicates a CSS Declaration */
+body {
+  /* property:value; is a CSS Rule */
+  background-color: #fdfdfd;
+  color: #0d0d0d;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.headerLogo {
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN */
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* UNIT CONVERTER */
+.unitConverter {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  background-color: lightcoral;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.viewResults {
+  height: 20px;
+  border: 2px dotted black;
+  background-color: white;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+}
