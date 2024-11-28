@@ -24,33 +24,37 @@
         <h2>Enhet konventerer</h2>
 
         <form class="unitConverter">
-          <label for="">
+          <label for="input">
             Skriv inn et tall
-            <input type="number" name="" id="" />
+            <input type="number" name="input" id="input" />
           </label>
 
           <div>
-            <label for="">
+            <label for="startUnit">
               Velg enhet fra
-              <select name="" id="">
-                <option value="">MM</option>
-                <option value="">CM</option>
-                <option value="">M</option>
+              <select name="startUnit" id="startUnit">
+                <option value="mm">MM</option>
+                <option value="cm">CM</option>
+                <option value="m">M</option>
               </select>
             </label>
 
-            <label for="">
+            <label for="endUnit">
               Velg enhet til
-              <select name="" id=""></select>
+              <select name="endUnit" id="endUnit">
+                <option value="mm">MM</option>
+                <option value="cm">CM</option>
+                <option value="m">M</option>
+              </select>
             </label>
           </div>
 
           <div>
             <p>Her vises resultatet:</p>
-            <p id="" class="viewResults"></p>
+            <p id="result" class="viewResults"></p>
           </div>
 
-          <button id="convertButton">Konventer</button>
+          <button id="button">Konventer</button>
         </form>
       </section>
     </main>
